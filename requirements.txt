@@ -1,0 +1,9 @@
+torch
+transformers>=4.52     # Qwen2.5-Omni support
+accelerate
+soundfile
+scipy
+numpy
+pandas
+tabulate
+# optional: bitsandbytes (--load_4bit, for Qwen2.5-Omni-7B on a shared GPU), flash-attn (--attn flash_attention_2)
